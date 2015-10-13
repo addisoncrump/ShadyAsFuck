@@ -43,10 +43,10 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = "+]";
 					break;
 				case "y":
-					contarr[i] = "+.";
+					contarr[i] = "+,";
 					break;
 				case "_":
-					contarr[i] = "+,";
+					contarr[i] = "+.";
 					break;
 				case "+":
 					contarr[i] = "+";
@@ -70,10 +70,10 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = "-]";
 					break;
 				case "c":
-					contarr[i] = "-.";
+					contarr[i] = "-,";
 					break;
 				case "k":
-					contarr[i] = "-,";
+					contarr[i] = "-.";
 					break;
 				case "-":
 					contarr[i] = "-";
@@ -97,10 +97,10 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = "<]";
 					break;
 				case "Q":
-					contarr[i] = "<.";
+					contarr[i] = "<,";
 					break;
 				case "J":
-					contarr[i] = "<,";
+					contarr[i] = "<.";
 					break;
 				case "<":
 					contarr[i] = "<";
@@ -124,10 +124,10 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = ">]";
 					break;
 				case "U":
-					contarr[i] = ">.";
+					contarr[i] = ">,";
 					break;
 				case "2":
-					contarr[i] = ">,";
+					contarr[i] = ">.";
 					break;
 				case ">":
 					contarr[i] = ">";
@@ -151,10 +151,10 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = "[]";
 					break;
 				case "I":
-					contarr[i] = "[.";
+					contarr[i] = "[,";
 					break;
 				case "V":
-					contarr[i] = "[,";
+					contarr[i] = "[.";
 					break;
 				case "[":
 					contarr[i] = "[";
@@ -178,67 +178,67 @@ public class ShadyAsFuckInterpreter {
 					contarr[i] = "]]";
 					break;
 				case "Z":
-					contarr[i] = "].";
+					contarr[i] = "],";
 					break;
 				case "T":
-					contarr[i] = "],";
+					contarr[i] = "].";
 					break;
 				case "]":
 					contarr[i] = "]";
 					break;
 				case "t":
-					contarr[i] = ".+";
-					break;
-				case "H":
-					contarr[i] = ".-";
-					break;
-				case "i":
-					contarr[i] = ".<";
-					break;
-				case "N":
-					contarr[i] = ".>";
-					break;
-				case "K":
-					contarr[i] = ".[";
-					break;
-				case "":
-					contarr[i] = ".]";
-					break;
-				case ":":
-					contarr[i] = "..";
-					break;
-				case "C":
-					contarr[i] = ".,";
-					break;
-				case ".":
-					contarr[i] = ".";
-					break;
-				case "F":
 					contarr[i] = ",+";
 					break;
-				case "l":
+				case "H":
 					contarr[i] = ",-";
 					break;
-				case "4":
+				case "i":
 					contarr[i] = ",<";
 					break;
-				case "w":
+				case "N":
 					contarr[i] = ",>";
 					break;
-				case "r":
+				case "K":
 					contarr[i] = ",[";
 					break;
-				case "X":
+				case "!":
 					contarr[i] = ",]";
-					break;
-				case "D":
-					contarr[i] = ",.";
 					break;
 				case ";":
 					contarr[i] = ",,";
 					break;
+				case "C":
+					contarr[i] = ",.";
+					break;
 				case ",":
 					contarr[i] = ",";
+					break;
+				case "F":
+					contarr[i] = ".+";
+					break;
+				case "l":
+					contarr[i] = ".-";
+					break;
+				case "4":
+					contarr[i] = ".<";
+					break;
+				case "w":
+					contarr[i] = ".>";
+					break;
+				case "r":
+					contarr[i] = ".[";
+					break;
+				case "X":
+					contarr[i] = ".]";
+					break;
+				case "D":
+					contarr[i] = ".,";
+					break;
+				case ":":
+					contarr[i] = "..";
+					break;
+				case ".":
+					contarr[i] = ".";
 					break;
 			}
 			bfin += contarr[i];
